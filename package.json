@@ -4,6 +4,8 @@
   "private": false,
   "description": "ESLint configuration used by ThiagoBrolly.",
   "main": "index.js",
+  "author": "thiagobrolly",
+  "keywords": ["eslint", "prettier", "react", "node", "typescript"],
   "license": "MIT",
   "repository": {
     "url": "thiagobrolly/eslint-config-thiagobrolly"
