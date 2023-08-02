@@ -1,11 +1,11 @@
 {
   "name": "@thiagobrolly/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
   "description": "ESLint configuration used by ThiagoBrolly.",
   "main": "index.js",
   "author": "thiagobrolly",
-  "keywords": ["eslint", "prettier", "react", "node", "typescript"],
+  "keywords": ["eslint", "prettier", "react", "next", "node", "javascript", "typescript"],
   "license": "MIT",
   "repository": {
     "url": "thiagobrolly/eslint-config-thiagobrolly"
