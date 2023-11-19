@@ -25,6 +25,7 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    "react/self-closing-comp": "error",
     'prettier/prettier': ["error", {
       'printWidth': 80,
       'tabWidth': 2,
@@ -48,6 +49,7 @@ module.exports = {
     'jsx-a11y/aria-unsupported-elements': 'warn',
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
+    'react/no-unknown-property': 'error',
   },
   settings: {
     react: {
@@ -56,5 +58,8 @@ module.exports = {
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
-  }
+  },
+  ignorePatterns: [
+    'node_modules'
+  ]
 }
